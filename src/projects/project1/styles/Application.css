@@ -1,3 +1,31 @@
+body {
+    margin: 0;
+    font-family: 'Inter';
+}
+
 .nav {
     display: flex;
+    align-items: center;
+    height: 91px;
+    padding-left: 26px;
+    padding-right: 26px;
+    background: #21222a;
+}
+
+.nav-logo {
+    height: 29px;
+}
+
+.nav-title {
+    margin-right: auto;
+    font-weight: 700;
+    font-size: 22px;
+    color: #61dafb;
+    padding: 6px;
+}
+
+.nav-project {
+    font-weight: 600;
+    font-size: 16px;
+    color: #deebf8;
 }

@@ -1,6 +1,38 @@
 body {
     margin: 0;
     font-family: 'Inter';
+    background-color: #282d35;
+}
+
+main {
+    color: white;
+    margin: 0;
+    padding: 57px 27px;
+    background-image: url('../images/react-icon2.png');
+    background-repeat: no-repeat;
+    background-position: right 75%;
+}
+.title {
+    margin: 0;
+    font-size: 39px;
+    letter-spacing: -0.05em;
+}
+
+ul {
+    margin-top: 46px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    max-width: 400px;
+}
+
+ul > li {
+    padding: 10px 0 10px;
+}
+
+ul > li::marker {
+    color: #61dafb;
+    font-size: 24px;
 }
 
 .nav {
@@ -9,7 +41,7 @@ body {
     height: 91px;
     padding-left: 26px;
     padding-right: 26px;
-    background: #21222a;
+    background-color: #21222a;
 }
 
 .nav-logo {

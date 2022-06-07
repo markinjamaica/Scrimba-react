@@ -74,3 +74,17 @@ main {
     line-height: 16px;
     color: #ffffff;
 }
+
+.text-header {
+    font-size: 16px;
+    color: #f5f5f5;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.text {
+    font-size: 10.24px;
+    color: #dcdcdc;
+    line-height: 150%;
+    margin-top: 5px;
+}

@@ -14,8 +14,8 @@ export default function Application() {
                 <Info />
                 <About />
                 <Interest />
-                <Footer />
             </div>
+            <Footer />
         </main>
     );
 }
